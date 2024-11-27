@@ -1,8 +1,7 @@
 <!-- Standalone Components -->
-<div>
-  <h2>Main Application Component</h2>
-  <app-my-standalone></app-my-standalone> 
-</div>
+ <h1>Main Component</h1>
+<app-my-standalone></app-my-standalone>
+
 
 <!-- Signals and LinkedSignals -->
 <!-- <app-counter></app-counter> -->
@@ -10,3 +9,17 @@
 
 <!-- Resource API -->
 <!-- <app-resource-api></app-resource-api> -->
+
+<!-- Incremental Hydration -->
+
+<!-- <div>
+  <h2>Main Application Component</h2>
+   Comments section loads when it enters the viewport
+  @defer (hydrate on viewport) {
+    <app-my-standalone></app-my-standalone>
+  }
+
+</div> -->
+
+<!-- HMR -->
+<app-hmr></app-hmr>

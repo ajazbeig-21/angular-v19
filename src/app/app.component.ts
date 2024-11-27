@@ -5,10 +5,11 @@ import { CounterComponent } from './counter/counter.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { ResourceApiComponent } from './resource-api/resource-api.component';
+import { AppHmr } from './hmr/hmr.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,MyStandaloneComponent,CounterComponent,CommonModule,FormsModule,ResourceApiComponent],
+  imports: [RouterOutlet,MyStandaloneComponent,CounterComponent,CommonModule,FormsModule,ResourceApiComponent,AppHmr],
   //standalone: true, this is Optional 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
